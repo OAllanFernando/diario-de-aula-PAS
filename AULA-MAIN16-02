@@ -1,0 +1,33 @@
+Pode ser realizado em duplas ou solo.
+Linguagem ministrada: C++ 
+A matéria vai seguir em conjunto com a matéria de TÓPICOS EM COMPUTAÇÃO (TEC) professor eduardo
+
+Deverão desenvolver um jogo a escolha do aluno.
+-----------------------------------------------------------------------------------------------
+
+Atividade da aula:
+  Definir projeto e preencher formulário
+
+1) Projeto
+- nome dos alunos: Allan Fernando 
+- nome e descrição do projeto: Aviação Royale 
+- especificação projeto/complexidade: Aerodinâmica, mudanças climaticas, tiro ao alvo
+- linguagem de programação: C++
+- bibliotecas a usar: https://box2d.org/about/; 
+
+2) Arquitetura
+- realizar uma pesquisa/estudo a respeito de arquitetura baseado em testes de domínio:
+- escolher uma arquitetura:
+
+3) Sprites/animações
+- Projetar as interfaces do jogo
+- Buscar os possíveis sprites e animações que poderão ser utilizados
+
+DOCUMENTAÇÂO INICIAL
+https://box2d.org/documentation_v3/index.html#autotoc_md7
+https://spaceengine.org/
+https://skybox.blockadelabs.com/
+
+Dicas pra desenvolvimento:
+
+Box2D
