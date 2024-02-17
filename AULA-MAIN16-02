@@ -5,7 +5,7 @@ A matéria vai seguir em conjunto com a matéria de TÓPICOS EM COMPUTAÇÃO (TE
 Deverão desenvolver um jogo a escolha do aluno.
 -----------------------------------------------------------------------------------------------
 
-Atividade da aula:
+Atividade da aula:p
   Definir projeto e preencher formulário
 
 1) Projeto
@@ -17,7 +17,7 @@ Atividade da aula:
 
 2) Arquitetura: https://appmaster.io/pt/blog/design-orientado-por-dominio
 - realizar uma pesquisa/estudo a respeito de arquitetura baseado em testes de domínio:
-- escolher uma arquitetura:
+- escolher uma arquitetura: (ECS)  Sistema de componentes de entidade
 
 3) Sprites/animações
 - Projetar as interfaces do jogo
@@ -31,3 +31,5 @@ https://skybox.blockadelabs.com/
 Dicas pra desenvolvimento:
 
 Box2D
+Video demonstrativo 
+https://www.youtube.com/watch?v=QtEz8yjWXUA
