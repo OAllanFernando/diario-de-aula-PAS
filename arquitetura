@@ -1,0 +1,73 @@
+Arquitetura monolitica
+Descricão: Uma aplicação monolitica onde todo o jogo fica em um unico projeto
+Pros:
+Simples e straightforward.
+Fácil de entender.
+Sobrecarga mínima devido a menos chamadas de função
+Cons:
+Dificil de crescer o projeto
+Falta de modularidade e escalabilidade.
+Debbugar pode ser desafiador
+Caso de uso: Adequado para pequenos jogos ou protótipos
+
+-------------
+
+Sistema de componentes de entidade (ECS)
+
+Descrição: O ECS separa as entidades do jogo (objetos) em componentes (dados) e sistemas (lógica).
+pros
+Altamente modular e escalável.
+Eficiente para jogos em grande escala.
+Permite a composição de entidades a partir de componentes reutilizáveis.
+cons:
+precisa de uma boa Curva de aprendizado inicial.
+Requer design cuidadoso para evitar gargalos de desempenho.
+Caso de uso: Ideal para jogos complexos com muitas entidades interagindo.
+
+------------
+
+Arquitetura baseada em componentes:
+Descrição: Semelhante ao ECS, mas menos rígido. Os componentes encapsulam o comportamento.
+pros:
+Incentiva a reutilização e a flexibilidade.
+Fácil de adicionar novos recursos criando novos componentes.
+Separação de preocupações.
+Contras:
+Pode levar à sobrecarga de desempenho devido a pesquisas dinâmicas de componentes.
+Requer design cuidadoso para evitar acoplamento excessivo.
+Caso de uso: Adequado para jogos com diversos recursos e conteúdo dinâmico.
+
+--------------------
+
+Arquitetura em camadas:
+Descrição: Divide o jogo em camadas lógicas (por exemplo, apresentação, lógica do jogo, acesso a dados).
+pros:
+Separação clara de responsabilidades.
+Mais fácil de manter e ampliar.
+Promove boas práticas de codificação.
+Contras:
+Sobrecarga devido à comunicação entre camadas.
+Pode se tornar complexo para grandes projetos.
+Caso de uso: Adequado para jogos com camadas distintas de interface do usuário, lógica e dados.
+
+-------------------
+
+Arquitetura de Microsserviços (para jogos online):
+Descrição: divide o jogo em microsserviços independentes (por exemplo, autenticação, matchmaking, tabelas de classificação).
+pros:
+Escalável e tolerante a falhas.
+Isolamento dos serviços.
+Suporta implantação contínua.
+Contras:
+Complexidade no gerenciamento de múltiplos serviços.
+Requer infraestrutura para detecção de serviço.
+Caso de uso: Jogos multiplayer online com vários serviços de back-end.
+
+-------------------
+
+Motor personalizado versus mecanismo existente:
+Decida se deseja criar seu próprio mecanismo personalizado ou usar um existente (por exemplo, Unreal Engine, Unity).
+Os motores personalizados oferecem controle total, mas exigem um esforço significativo.
+Os mecanismos existentes fornecem ferramentas, ativos e suporte à comunidade.
+
+
