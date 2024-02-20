@@ -7,4 +7,11 @@ Possíveis sprites
 
 ![image](https://github.com/OAllanFernando/projeto_avancado_software/assets/86169747/56d8e713-603e-4926-8701-ee4dce2a5dea)
 
+Avioes e bombas
 https://www.spriters-resource.com/mobile/metalslugcommander/sheet/191342/
+
+Tanks
+https://www.spriters-resource.com/ds_dsi/metalslug7/sheet/32526/
+
+All sprites metal slug
+https://www.spriters-resource.com/search/?q=metal+slug
