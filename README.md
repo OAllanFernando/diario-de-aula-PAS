@@ -19,4 +19,5 @@ https://www.spriters-resource.com/neo_geo_ngcd/ms/
 
 
 
-
+BIBLIOTECA 
+SDL E C++ 
